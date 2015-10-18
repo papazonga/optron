@@ -1,23 +1,23 @@
-@gray-darker:  lighten(#000, 13.5%);
-@gray-dark:    lighten(#000, 20%);
-@gray:         lighten(#000, 33.5%);
-@gray-light:   lighten(#000, 46.7%);
-@gray-lighter: lighten(#000, 93.5%);
-.g-box{
-	background-color:gray-light;
-	text-align:center;
-	color:gray;
-	border:1px;
-	border-color:@gray-dark;
+.m-box{
+	border:2px;
+	border-color:#black;
 	border-style:solid;
+}
+.g-box{
+	background-color:#777;
+	text-align:center;
+	color:#eee;
+	border:1px;
+	border-color:#333;
+	border-style:dotted;
 	padding:20px;
 }
 .header{
-	background:gray-darker;
+	background:#222;
 	text-align:center;
 	color:white;
 	padding:40px 20px 20px 20px;
 }
 .white{
-	color:@gray-lighter;
+	color:#777;
 }

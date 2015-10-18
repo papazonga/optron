@@ -1,12 +1,23 @@
-.g-box {
-	background:gray;
-	/*text-align:center;
-	color:blue;
-	border:1px;
-	border-color:gray;*/
-}
-.header {/*
-	background:gray;
+@gray-darker:  lighten(#000, 13.5%);
+@gray-dark:    lighten(#000, 20%);
+@gray:         lighten(#000, 33.5%);
+@gray-light:   lighten(#000, 46.7%);
+@gray-lighter: lighten(#000, 93.5%);
+.g-box{
+	background-color:gray-light;
 	text-align:center;
-	color:white;*/
+	color:gray;
+	border:1px;
+	border-color:@gray-dark;
+	border-style:solid;
+	padding:20px;
+}
+.header{
+	background:gray-darker;
+	text-align:center;
+	color:white;
+	padding:40px 20px 20px 20px;
+}
+.white{
+	color:@gray-lighter;
 }
